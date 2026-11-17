@@ -1,0 +1,152 @@
+{
+  "categories": [
+    {
+      "id": "tax-benefit-components",
+      "title": "Tax Benefit Components",
+      "blurb": "Salary components that legally reduce your tax bill.",
+      "topics": ["hra", "cea"]
+    }
+  ],
+  "topics": {
+    "hra": {
+      "id": "hra",
+      "title": "House Rent Allowance (HRA)",
+      "shortName": "HRA",
+      "short": "Tax-free part of your salary when you pay rent.",
+      "lastVerified": "2026-11-17",
+      "lastChanged": "2026-11-17",
+      "whatIsIt": "HRA is a part of your salary that your employer pays you to help with rent. A portion of it can be tax-free (exempt) if you actually pay rent for a house you live in. The exempt portion is not added to your taxable income, so you pay less tax.",
+      "benefit": "Instead of paying tax on the whole HRA, you pay tax only on the part that is not exempt. For someone in the 30% slab, every ₹1,00,000 of HRA that becomes exempt saves roughly ₹31,200 in tax (including 4% cess).",
+      "whoCanClaim": [
+        "Salaried employees who receive HRA as part of their salary.",
+        "You must actually pay rent and live in the rented house.",
+        "You must be under the OLD tax regime. HRA exemption is not available in the new regime."
+      ],
+      "howCalculated": {
+        "intro": "The exempt amount is the LOWEST of these three. Everything else is taxable.",
+        "steps": [
+          "The actual HRA your employer pays you.",
+          "Rent you pay minus 10% of your Basic + DA (dearness allowance).",
+          "50% of Basic + DA if you live in one of the specified metro cities, otherwise 40% of Basic + DA."
+        ]
+      },
+      "clauses": [
+        { "title": "Old regime only", "text": "You can claim HRA exemption only if you choose the old tax regime. Under the new regime this deduction is not available." },
+        { "title": "Rent must be actually paid", "text": "You need proof of rent paid, such as rent receipts, a rental agreement or bank transfer records. Your employer may ask for these." },
+        { "title": "Landlord PAN above ₹1 lakh", "text": "If the rent you pay is more than ₹1,00,000 in a year (about ₹8,333 a month), you must give your landlord's PAN to your employer." },
+        { "title": "Rent to parents is allowed", "text": "You can pay rent to your parents and claim HRA, as long as the rent is real, paid by bank transfer, and your parents show it as income in their return." },
+        { "title": "No HRA in salary? Use 80GG", "text": "If your salary has no HRA component, you may still claim a deduction for rent under Section 80GG (old regime), capped at ₹5,000 per month, subject to conditions such as not owning a house in the same city." },
+        { "title": "Who is on the law's list", "text": "In the old Act this was Section 10(13A) with Rule 2A. The Income-tax Act, 2025 replaced the 1961 Act from 1 April 2026, and the rules carry over. Published sources disagree on the exact new section number, so it is not stated here until confirmed from the official text." }
+      ],
+      "latestUpdate": {
+        "effectiveDate": "2026-04-01",
+        "headline": "50% HRA limit now covers 8 metro cities (up from 4).",
+        "status": "Confirm against notified rules.",
+        "details": [
+          "Before 1 April 2026, only Delhi, Mumbai, Kolkata and Chennai had the higher 50% limit.",
+          "From 1 April 2026, Bengaluru, Hyderabad, Pune and Ahmedabad are added. The 50% limit now applies to 8 cities.",
+          "All other cities, including Gurgaon and Noida, stay at 40%.",
+          "The change applies to tax year 2026-27. Returns for FY 2025-26 still use the old list of four cities.",
+          "Some reports say a landlord-tenant disclosure requirement was proposed in draft rules. This is not confirmed as final."
+        ]
+      },
+      "metroCities": {
+        "fifty": ["Delhi", "Mumbai", "Kolkata", "Chennai", "Bengaluru", "Hyderabad", "Pune", "Ahmedabad"],
+        "note": "Everywhere else: 40%."
+      },
+      "example": {
+        "scenario": "Meera lives in Bengaluru. Basic + DA is ₹50,000 a month. Her employer pays HRA of ₹25,000 a month. She pays rent of ₹28,000 a month.",
+        "rows": [
+          { "label": "A. Actual HRA received", "value": "₹25,000" },
+          { "label": "B. Rent paid − 10% of Basic+DA (28,000 − 5,000)", "value": "₹23,000" },
+          { "label": "C. 50% of Basic+DA (new rule, Bengaluru is now a 50% city)", "value": "₹25,000" }
+        ],
+        "result": "Exempt HRA = lowest of A, B, C = ₹23,000 a month (₹2,76,000 a year).",
+        "compare": "Under the old 40% rule, C would have been ₹20,000, so only ₹20,000 a month would be exempt. The change gives Meera ₹36,000 more exempt income a year, which saves about ₹11,200 in tax at the 30% slab."
+      },
+      "documents": ["Rent receipts or rental agreement", "Bank transfer proof of rent", "Landlord's name, address and PAN (if rent above ₹1 lakh a year)", "Declaration submitted to your employer's payroll"],
+      "watchOut": [
+        "Pick the old regime in your declaration, or your employer will not give you the exemption.",
+        "Pay rent by bank transfer, not cash, so you can prove it.",
+        "The city is decided by where you live, not where your office is.",
+        "If you skipped claiming it at work, you can still claim it when you file your return."
+      ],
+      "sources": [
+        { "title": "TaxGuru: HRA exemption, 8 cities now qualify for 50%", "url": "https://taxguru.in/income-tax/hra-exemption-8-cities-qualify-50-percent-exemption-practical-guide.html" },
+        { "title": "ClearTax: HRA and new rules 2026", "url": "https://cleartax.in/s/hra-house-rent-allowance" },
+        { "title": "Business Today: Paying rent to parents is legal", "url": "https://www.businesstoday.in/personal-finance/tax/story/taxes-in-2026-paying-rent-to-parents-to-claim-hra-is-legal-heres-how-to-save-up-to-rs-12-lakh-508299-2025-12-26" }
+      ],
+      "changelog": [
+        { "date": "2026-11-17", "type": "created", "note": "Page created. Covers the 1 April 2026 change extending the 50% limit to 8 cities." }
+      ]
+    },
+    "cea": {
+      "id": "cea",
+      "title": "Children Education Allowance (CEA)",
+      "shortName": "CEA",
+      "short": "Tax-free part of your salary for your children's schooling.",
+      "lastVerified": "2026-11-17",
+      "lastChanged": "2026-11-17",
+      "whatIsIt": "CEA is a salary component your employer pays you towards your children's schooling. A fixed part of it is tax-free (exempt). Anything above the limit is taxed like normal salary.",
+      "benefit": "The exempt part is not added to your taxable income, so you pay less tax. The old limits were tiny, so most people ignored this allowance. The new limits make it worth having in your salary structure. For someone in the 30% slab, every ₹1,00,000 of CEA that becomes exempt saves roughly ₹31,200 in tax (including 4% cess).",
+      "whoCanClaim": [
+        "Salaried employees whose employer pays CEA as a separate salary component.",
+        "Up to 2 children. The limit is per child, so a third child gets nothing extra.",
+        "You must be under the OLD tax regime. The exemption is not available in the new regime.",
+        "No fee receipts are needed. It is a fixed exempt amount, not a refund of actual school fees."
+      ],
+      "howCalculated": {
+        "intro": "Work this out for each child (maximum 2), then add the two together.",
+        "steps": [
+          "Take the CEA your employer actually pays for that child.",
+          "Take the monthly limit: ₹3,000 per child for education, or ₹9,000 per child if the child lives in a hostel.",
+          "The exempt amount is the LOWER of the two. Everything above it is taxable."
+        ]
+      },
+      "clauses": [
+        { "title": "Old regime only", "text": "You can claim the CEA exemption only if you choose the old tax regime." },
+        { "title": "Maximum 2 children", "text": "The exemption covers only 2 children. A third child gets no exemption." },
+        { "title": "Education and hostel are separate", "text": "Education allowance is for schooling. Hostel allowance applies only if the child lives in a hostel. Each has its own limit." },
+        { "title": "Fixed limit, no bills", "text": "You get the exemption up to the limit even if your real school fees are higher or lower. You do not need to show fee receipts." },
+        { "title": "Not the same as 80C tuition fees", "text": "Tuition fees you pay can also be claimed under Section 80C in the old regime. That is a separate deduction, and you can use both." },
+        { "title": "Not the same as central government CEA", "text": "Central government employees get a CEA under pay rules, with different amounts. That is not this income-tax exemption." },
+        { "title": "Where it sits in the law", "text": "In the old Act this was Section 10(14) with Rule 2BB. The Income-tax Act, 2025 replaced the 1961 Act from 1 April 2026. The exact new section number is not stated here until confirmed from the official text." }
+      ],
+      "latestUpdate": {
+        "effectiveDate": "2026-04-01",
+        "headline": "Tax-free limit raised from ₹100 to ₹3,000 per child per month.",
+        "status": "Confirm against notified rules.",
+        "details": [
+          "Education allowance: from ₹100 to ₹3,000 per child per month.",
+          "Hostel allowance: from ₹300 to ₹9,000 per child per month.",
+          "Still limited to 2 children.",
+          "Applies from tax year 2026-27 (1 April 2026)."
+        ]
+      },
+      "example": {
+        "scenario": "Your employer pays CEA of ₹4,000 a month for your two children (₹2,000 each).",
+        "rows": [
+          { "label": "Old limit (₹100 per child)", "value": "₹200 a month" },
+          { "label": "New limit: each child's ₹2,000 is below ₹3,000", "value": "₹4,000 a month" }
+        ],
+        "result": "New rule: ₹4,000 a month, or ₹48,000 a year, is exempt.",
+        "compare": "Under the old limit only ₹2,400 a year was exempt. At the 30% slab the new rule saves about ₹15,000 a year in tax."
+      },
+      "documents": ["CEA shown as a separate component in your salary structure", "Old regime choice in your employer's tax declaration", "Children's details (names, ages, hostel status if applicable) if your employer asks"],
+      "watchOut": [
+        "Choose the old regime in your declaration, or your employer will not give you the exemption.",
+        "Only the first 2 children count.",
+        "Check that your salary structure actually has a CEA component. Employers often do not offer one.",
+        "Amounts above the limit are taxable."
+      ],
+      "sources": [
+        { "title": "taxupdate.in: CEA limits under Income-tax Rules 2026", "url": "https://taxupdate.in/income-tax/787/children-education-hostel-transport-allowance-exemption-limits-income-tax-rules-2026-fy-2026-27/" },
+        { "title": "India Policy Hub: Revised children's education and hostel allowance limits", "url": "https://indiapolicyhub.in/2026/09/22/revised-2026-children-education-hostel-allowance-tax-limits/" },
+        { "title": "TaxGarden: Income Tax Rules 2026 key changes", "url": "https://taxgarden.in/blog/income-tax-rules-2026-key-changes-india" }
+      ],
+      "changelog": [
+        { "date": "2026-11-17", "type": "created", "note": "Page created. Covers the 1 April 2026 rise in the tax-free limit to ₹3,000 per child per month." }
+      ]
+    }
+  }
+}
