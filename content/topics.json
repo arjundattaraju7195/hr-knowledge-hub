@@ -8,7 +8,8 @@
         "hra",
         "cea",
         "lta",
-        "car-fuel-driver"
+        "car-fuel-driver",
+        "nps"
       ]
     }
   ],
@@ -548,6 +549,164 @@
         "mustMention": "company car|car perquisite|motor car|chauffeur|fuel reimbursement"
       },
       "calcHeading": "How the taxable amount is worked out"
+    },
+    "nps": {
+      "id": "nps",
+      "title": "National Pension System (NPS)",
+      "shortName": "NPS",
+      "short": "Tax deductions for retirement savings, including your employer's contribution.",
+      "lastVerified": "2026-11-18",
+      "lastChanged": "2026-11-18",
+      "calcHeading": "How the deduction is worked out",
+      "whatIsIt": "NPS is a government-regulated retirement savings scheme. Money goes in during your working years and is invested. At retirement you take part of it as a lump sum and use the rest to buy a pension. On this page we only cover the tax side, which has three parts: your own contribution, an extra ₹50,000, and your employer's contribution.",
+      "benefit": "What goes into NPS is cut from your taxable income, up to a limit, so you pay less tax. The employer contribution is the most useful part: it works in both tax regimes and sits outside the ₹1,50,000 Section 80C limit. For someone in the 30% slab, every ₹1,00,000 that becomes deductible saves roughly ₹31,200 in tax (including 4% cess).",
+      "whoCanClaim": [
+        "Salaried employees who have an NPS account.",
+        "Employer contribution: available in both the old and the new tax regime. Your employer must pay it into your NPS account, usually set up through payroll.",
+        "Your own contribution and the extra ₹50,000: old tax regime only."
+      ],
+      "howCalculated": {
+        "intro": "There are three separate deductions. Work out each one, then add them up.",
+        "steps": [
+          "Employer contribution: the amount your employer pays into your NPS, up to 14% of your Basic + DA in the new regime. It is on top of the ₹1,50,000 Section 80C limit.",
+          "Your own contribution (old regime): counts inside the ₹1,50,000 Section 80C limit, and up to 10% of your Basic + DA.",
+          "Extra ₹50,000 (old regime): an additional deduction for your own contribution, on top of the ₹1,50,000."
+        ]
+      },
+      "table": {
+        "heading": "The three NPS tax benefits",
+        "columns": [
+          "Part",
+          "Who pays in",
+          "Limit",
+          "Regime"
+        ],
+        "rows": [
+          [
+            "Your own contribution (old Section 80CCD(1))",
+            "You",
+            "Inside the ₹1,50,000 Section 80C limit; up to 10% of Basic + DA",
+            "Old only"
+          ],
+          [
+            "Extra deduction (old Section 80CCD(1B))",
+            "You",
+            "₹50,000, on top of the ₹1,50,000",
+            "Old only"
+          ],
+          [
+            "Employer contribution (old Section 80CCD(2))",
+            "Your employer",
+            "Up to 14% of Basic + DA in the new regime",
+            "Both regimes"
+          ]
+        ]
+      },
+      "clauses": [
+        {
+          "title": "Employer contribution survives in the new regime",
+          "text": "It is the only NPS deduction that remains in the new regime. Your own contribution and the extra ₹50,000 are not available there."
+        },
+        {
+          "title": "Limit is a share of Basic + DA",
+          "text": "The limit is a percentage of your Basic + DA, not of your total pay. A small basic means a small limit."
+        },
+        {
+          "title": "Extra room beyond Section 80C",
+          "text": "The employer contribution does not use up your ₹1,50,000 Section 80C limit."
+        },
+        {
+          "title": "Above the limit is taxable",
+          "text": "Employer contributions above the limit are taxed as salary."
+        },
+        {
+          "title": "Combined ₹7,50,000 cap",
+          "text": "Your employer's yearly contributions to NPS, EPF and superannuation together are taxed once they pass ₹7,50,000."
+        },
+        {
+          "title": "Needs payroll set-up",
+          "text": "Ask your employer to route part of your pay as an employer NPS contribution. You cannot claim it later on your own."
+        },
+        {
+          "title": "Old-regime cap for private employers",
+          "text": "Sources disagree on whether it is 10% or 14% of Basic + DA. This is not stated here until confirmed."
+        },
+        {
+          "title": "Where it sits in the law",
+          "text": "Old Section 80CCD. The Income-tax Act, 2025 reportedly moved it to Section 124, but sources disagree on the exact mapping, so the new numbers are not stated here. Form 16 and payslips may still show the old 80CCD label."
+        }
+      ],
+      "latestUpdate": {
+        "effectiveDate": "2026-04-01",
+        "headline": "No change in the 14% limit found. NPS deductions move to a new section number.",
+        "status": "Confirm against notified rules.",
+        "details": [
+          "The 14% employer limit in the new regime continues for 2026-27.",
+          "The Income-tax Act, 2025 reportedly moves these deductions to Section 124. Sources disagree on the exact mapping.",
+          "The old-regime limit for private employers is reported inconsistently (10% or 14%).",
+          "The extra ₹50,000 and your own contribution are still old-regime only."
+        ]
+      },
+      "example": {
+        "scenario": "Your Basic + DA is ₹60,000 a month, which is ₹7,20,000 a year. You are in the 30% slab.",
+        "rows": [
+          {
+            "label": "Employer contribution limit (14% of ₹7,20,000)",
+            "value": "₹1,00,800"
+          },
+          {
+            "label": "Tax saved, either regime (₹1,00,800 × 31.2%)",
+            "value": "₹31,450"
+          },
+          {
+            "label": "Extra ₹50,000 of your own, old regime only (₹50,000 × 31.2%)",
+            "value": "₹15,600"
+          }
+        ],
+        "result": "Employer contribution alone saves about ₹31,450 a year, in either regime.",
+        "compare": "In the old regime you can add the ₹50,000 deduction for about ₹15,600 more. Both are on top of your ₹1,50,000 Section 80C limit."
+      },
+      "documents": [
+        "Your PRAN (NPS account number)",
+        "Employer confirmation of the contribution made",
+        "NPS statement of contributions for the year",
+        "Old or new regime choice in your employer tax declaration"
+      ],
+      "watchOut": [
+        "Only the employer contribution works in the new regime.",
+        "The limit is based on Basic + DA, so check your salary structure.",
+        "Contributions above the limit are taxable.",
+        "Employer NPS, EPF and superannuation together are taxed above ₹7,50,000 a year.",
+        "Money in NPS is locked in until retirement. Check the withdrawal rules before putting money in."
+      ],
+      "sources": [
+        {
+          "title": "TaxBuddy: tax benefits of NPS under Section 80CCD, old vs new regime",
+          "url": "https://www.taxbuddy.com/blog/tax-benefits-of-nps-under-section-80ccd-old-vs-new-regime-explained"
+        },
+        {
+          "title": "Olambit: NPS tax benefit, 80CCD is now Section 124",
+          "url": "https://www.olambit.com/blog/section-80ccd-nps-deduction-new-act-2025/"
+        },
+        {
+          "title": "CalcGuru: Section 80CCD(2) employer NPS in the new regime 2026-27",
+          "url": "https://calcguru.in/80ccd2-employer-nps-new-regime/"
+        }
+      ],
+      "changelog": [
+        {
+          "date": "2026-11-18",
+          "type": "created",
+          "note": "Page created. Covers the three NPS tax benefits and the move to a new section number."
+        }
+      ],
+      "watch": {
+        "queries": [
+          "NPS employer contribution tax deduction",
+          "\"80CCD\" NPS tax 2026"
+        ],
+        "mustMention": "\bNPS\b|80CCD|National Pension"
+      }
     }
   }
 }
