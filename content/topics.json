@@ -9,7 +9,8 @@
         "cea",
         "lta",
         "car-fuel-driver",
-        "nps"
+        "nps",
+        "gifts"
       ]
     }
   ],
@@ -706,6 +707,165 @@
           "\"80CCD\" NPS tax 2026"
         ],
         "mustMention": "\bNPS\b|80CCD|National Pension"
+      }
+    },
+    "gifts": {
+      "id": "gifts",
+      "title": "Gift Vouchers and Gifts",
+      "shortName": "Gift vouchers",
+      "short": "Tax-free gifts and vouchers from your employer, up to a yearly limit.",
+      "lastVerified": "2026-11-18",
+      "lastChanged": "2026-11-18",
+      "calcHeading": "How the tax is worked out",
+      "whatIsIt": "Your employer can give you gifts, vouchers or tokens during the year, such as a Diwali hamper or a shopping voucher. If their total value stays within a limit, there is no tax on them. If it goes over, the whole amount becomes taxable.",
+      "benefit": "A gift gives you value without it being added to your salary. A ₹10,000 voucher costs the employer ₹10,000 and you pay no tax on it. The same ₹10,000 paid as a bonus would be taxed at your slab rate, which is ₹3,120 at the 30% slab (including 4% cess).",
+      "whoCanClaim": [
+        "Any employee who receives gifts, vouchers or tokens from the employer.",
+        "Reported to work under both the old and the new tax regime. Confirm this before relying on it.",
+        "Only real gifts, or vouchers and tokens that cannot be turned into cash, qualify."
+      ],
+      "howCalculated": {
+        "intro": "Add up every gift and voucher you got from your employer in the year, then compare with the limit.",
+        "steps": [
+          "Leave out anything in cash, or that can be turned into cash. That is fully taxable.",
+          "Add the value of all other gifts, vouchers and tokens received in the year.",
+          "If the total is within the limit (₹15,000 from 1 April 2026), none of it is taxed.",
+          "If the total is above the limit, the whole amount is taxable, not just the excess."
+        ]
+      },
+      "table": {
+        "heading": "What is taxed and what is not",
+        "columns": [
+          "Type of gift",
+          "Tax"
+        ],
+        "rows": [
+          [
+            "Cash or gift cheque",
+            "Fully taxable, always"
+          ],
+          [
+            "Voucher you can redeem for cash",
+            "Fully taxable"
+          ],
+          [
+            "Gift, or voucher you cannot turn into cash. Yearly total within the limit.",
+            "Tax-free"
+          ],
+          [
+            "Same gifts, yearly total above the limit",
+            "The whole amount is taxable"
+          ]
+        ]
+      },
+      "clauses": [
+        {
+          "title": "Cash never counts",
+          "text": "A gift in cash, or one that can be turned into cash, such as a gift cheque, is fully taxable."
+        },
+        {
+          "title": "The limit is per year, in total",
+          "text": "All gifts and vouchers received across the year are added together and compared with one limit."
+        },
+        {
+          "title": "It is a cliff, not a slope",
+          "text": "If the total goes over the limit, the whole amount is taxable, not just the part above the limit."
+        },
+        {
+          "title": "A gift allowance is not a gift",
+          "text": "A cash gift allowance shown on your payslip is taxable. Only an actual gift or voucher qualifies."
+        },
+        {
+          "title": "Not the ₹50,000 gift limit",
+          "text": "The ₹50,000 figure in some headlines is for gifts you receive from friends and other non-relatives. It does not apply to employer gifts."
+        },
+        {
+          "title": "Meal vouchers are separate",
+          "text": "Meal vouchers are reported as exempt up to ₹200 per meal from 1 April 2026. That is its own component."
+        },
+        {
+          "title": "Exactly ₹15,000",
+          "text": "One source says no tax applies only when the value is below ₹15,000. Another says up to and including ₹15,000. This is not settled here, so stay below ₹15,000."
+        },
+        {
+          "title": "Where it sits in the law",
+          "text": "In the old Act this was Rule 3(7)(iv) of the 1962 Rules, under the perquisite rules for salary. The Income-tax Rules, 2026 came into force on 1 April 2026. The exact new rule number is not stated here until confirmed from the official text."
+        }
+      ],
+      "latestUpdate": {
+        "effectiveDate": "2026-04-01",
+        "headline": "Tax-free limit for gifts and vouchers raised from ₹5,000 to ₹15,000 a year.",
+        "status": "Confirm against notified rules.",
+        "details": [
+          "The old limit was ₹5,000 a year in total.",
+          "The new limit is ₹15,000 a year in total, from 1 April 2026.",
+          "Reported to apply under both the old and the new tax regime.",
+          "Whether exactly ₹15,000 is tax-free is disputed in the sources. Stay below it."
+        ]
+      },
+      "example": {
+        "scenario": "Your employer gives you a ₹10,000 Diwali voucher and a ₹4,000 birthday hamper, ₹14,000 in total.",
+        "rows": [
+          {
+            "label": "Total gifts in the year",
+            "value": "₹14,000"
+          },
+          {
+            "label": "Old limit ₹5,000: taxable amount",
+            "value": "₹14,000"
+          },
+          {
+            "label": "New limit ₹15,000: taxable amount",
+            "value": "Nil"
+          },
+          {
+            "label": "If the total were ₹16,000: taxable amount",
+            "value": "₹16,000"
+          }
+        ],
+        "result": "Under the new limit nothing is taxable. Under the old limit it would have cost about ₹4,370 at the 30% slab.",
+        "compare": "At ₹16,000 the whole amount is taxable because of the cliff. Staying below the limit matters."
+      },
+      "documents": [
+        "Employer record of gifts and vouchers given during the year",
+        "Voucher terms showing it cannot be redeemed for cash",
+        "Your own total for the year, across all occasions"
+      ],
+      "watchOut": [
+        "Cash and gift cheques are always taxable.",
+        "A voucher you can redeem for cash is taxable.",
+        "Going over the limit makes the whole amount taxable.",
+        "Add up all occasions in the year, not each gift on its own.",
+        "Do not plan right at ₹15,000. Stay below it.",
+        "The limit comes from secondary sources and still needs checking against the notified rules."
+      ],
+      "sources": [
+        {
+          "title": "CalcGuru: meal and gift voucher exemption 2026-27",
+          "url": "https://calcguru.in/meal-coupons-gift-cards-tax/"
+        },
+        {
+          "title": "The Tribune: gifts tax-free up to Rs 15,000 in both regimes",
+          "url": "https://www.tribuneindia.com/news/business/new-tax-rules-2026-gifts-tax-free-upto-rs-15000-in-both-new-and-old-tax-regime-advantageclub-ai-ready-with-tax-saving-benefits-rewards-2-2/"
+        },
+        {
+          "title": "PazCare: how to structure gift allowance in employee salary",
+          "url": "https://www.pazcare.com/blog/how-to-structure-gift-allowance-in-employee-salary-to-save-tax"
+        }
+      ],
+      "changelog": [
+        {
+          "date": "2026-11-18",
+          "type": "created",
+          "note": "Page created. Covers the 1 April 2026 rise in the tax-free gift limit to ₹15,000 a year."
+        }
+      ],
+      "watch": {
+        "queries": [
+          "employer gift voucher tax limit 15,000",
+          "employee gift tax-free Income-tax Rules 2026"
+        ],
+        "mustMention": "gift"
       }
     }
   }
