@@ -6,7 +6,8 @@
       "blurb": "Salary components that legally reduce your tax bill.",
       "topics": [
         "hra",
-        "cea"
+        "cea",
+        "lta"
       ]
     }
   ],
@@ -261,6 +262,129 @@
           "\"hostel allowance\" tax exemption"
         ],
         "mustMention": "education allowance|hostel allowance|\bCEA\b"
+      }
+    },
+    "lta": {
+      "id": "lta",
+      "title": "Leave Travel Allowance (LTA)",
+      "shortName": "LTA",
+      "short": "Tax-free part of your salary for holiday travel within India.",
+      "lastVerified": "2026-11-18",
+      "lastChanged": "2026-11-18",
+      "whatIsIt": "LTA is a salary component your employer pays you to cover the fare of a holiday trip within India. If you actually travel and show proof, the part of LTA you spend on that fare is tax-free.",
+      "benefit": "You do not pay tax on the LTA you use for qualifying travel, so your taxable salary drops. There is no fixed rupee cap. The limit is how much LTA your employer pays you and what the trip actually cost. For someone in the 30% slab, every ₹1,00,000 of LTA that becomes exempt saves roughly ₹31,200 in tax (including 4% cess).",
+      "whoCanClaim": [
+        "Salaried employees whose salary includes an LTA component.",
+        "You must be under the OLD tax regime. The exemption is not available in the new regime.",
+        "Travel can be for you, your spouse, your children, your parents, and brothers and sisters who depend mainly on you.",
+        "Children: only 2 count if they were born after 1 October 1998. There is no limit for children born before that, or for twins and other multiple births after that."
+      ],
+      "howCalculated": {
+        "intro": "The exempt amount is the LOWER of these two. Anything above it is taxable.",
+        "steps": [
+          "The LTA your employer paid you.",
+          "The actual fare you spent on the trip, limited to the fare for the allowed mode of travel."
+        ]
+      },
+      "clauses": [
+        {
+          "title": "Old regime only",
+          "text": "You can claim LTA exemption only if you choose the old tax regime."
+        },
+        {
+          "title": "Only the fare is covered",
+          "text": "Hotels, food, sightseeing and local taxis are not covered. Only the travel fare counts."
+        },
+        {
+          "title": "Within India only",
+          "text": "The trip must be inside India. A foreign trip does not qualify."
+        },
+        {
+          "title": "Fare limit by mode of travel",
+          "text": "Air: economy class fare by the shortest route. Train: AC first class fare. Bus or other public transport: first class or deluxe fare. Own car or taxi: only the equivalent AC first class rail fare, even if you spent more."
+        },
+        {
+          "title": "2 journeys in a block of 4 years",
+          "text": "You can claim only 2 journeys in every block of 4 calendar years. Within a block you can claim in any year, in any order. The current block is 2026 to 2029. The previous block was 2022 to 2025."
+        },
+        {
+          "title": "One journey can be carried over",
+          "text": "If you did not use both journeys in a block, you can carry over one journey into the first year of the next block, but not both."
+        },
+        {
+          "title": "Proof is needed",
+          "text": "Keep tickets, boarding passes or travel bills. Your employer may ask for them."
+        },
+        {
+          "title": "Where it sits in the law",
+          "text": "In the old Act this was Section 10(5) with Rule 2B. The Income-tax Act, 2025 replaced the 1961 Act from 1 April 2026. The exact new section number is not stated here until confirmed from the official text."
+        }
+      ],
+      "latestUpdate": {
+        "effectiveDate": "2026-01-01",
+        "headline": "A new 4-year block started: 1 January 2026 to 31 December 2029.",
+        "status": "Confirm against notified rules.",
+        "details": [
+          "The 2022 to 2025 block has ended. Two fresh journeys can be claimed in the 2026 to 2029 block.",
+          "Journeys made up to 31 December 2025 count in the old block. Journeys from 1 January 2026 count in the new block.",
+          "Proposed in draft rules, not confirmed as final: a new Form 124 replacing Form 12BB, mandatory proof of actual travel, and a cap of about ₹30 per kilometre on road travel."
+        ]
+      },
+      "example": {
+        "scenario": "Your LTA is ₹40,000 a year. You and your spouse fly to Goa, and the economy tickets cost ₹28,000 in total.",
+        "rows": [
+          {
+            "label": "A. LTA paid by your employer",
+            "value": "₹40,000"
+          },
+          {
+            "label": "B. Actual economy fare spent",
+            "value": "₹28,000"
+          }
+        ],
+        "result": "Exempt LTA = lower of A and B = ₹28,000. The other ₹12,000 is taxable.",
+        "compare": "At the 30% slab this saves about ₹8,700 in tax. This trip uses one of your 2 journeys in the 2026 to 2029 block, so one is left."
+      },
+      "documents": [
+        "Tickets, boarding passes or travel bills",
+        "Names of the family members who travelled",
+        "LTA claim form or declaration submitted to your employer",
+        "Old regime choice in your employer tax declaration"
+      ],
+      "watchOut": [
+        "Do not claim hotel, food or sightseeing bills. They are not covered.",
+        "Do not claim a foreign trip.",
+        "Track your journeys: only 2 in every block of 4 years.",
+        "Choose the old regime in your declaration, or your employer will not give you the exemption.",
+        "Keep proof of travel, not just a verbal claim."
+      ],
+      "sources": [
+        {
+          "title": "BusinessToday: how draft Income-tax Rules will calculate LTA from 2026",
+          "url": "https://www.businesstoday.in/personal-finance/tax/story/leave-travel-concession-rules-how-draft-income-tax-rules-will-calculate-lta-from-2026-516778-2026-02-18"
+        },
+        {
+          "title": "Finance Guided: LTA exemption rules India 2026",
+          "url": "https://www.financeguided.com/2026/02/lta-leave-travel-allowance-exemption-rules-india-who-can-claim-2026.html"
+        },
+        {
+          "title": "CalcGuru: LTA exemption, rules, block and calculator",
+          "url": "https://calcguru.in/lta-exemption/"
+        }
+      ],
+      "changelog": [
+        {
+          "date": "2026-11-18",
+          "type": "created",
+          "note": "Page created. Covers the new 2026 to 2029 block and the proposed draft-rule changes."
+        }
+      ],
+      "watch": {
+        "queries": [
+          "\"leave travel allowance\" tax",
+          "\"leave travel concession\" income tax rules"
+        ],
+        "mustMention": "leave travel|\bLTA\b|\bLTC\b"
       }
     }
   }
