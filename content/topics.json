@@ -10,7 +10,8 @@
         "lta",
         "car-fuel-driver",
         "nps",
-        "gifts"
+        "gifts",
+        "books"
       ]
     }
   ],
@@ -866,6 +867,129 @@
           "employee gift tax-free Income-tax Rules 2026"
         ],
         "mustMention": "gift"
+      }
+    },
+    "books": {
+      "id": "books",
+      "title": "Books and Periodicals",
+      "shortName": "Books & periodicals",
+      "short": "Tax-free reimbursement for books and journals you buy for work.",
+      "lastVerified": "2026-11-18",
+      "lastChanged": "2026-11-18",
+      "calcHeading": "How the exempt amount is worked out",
+      "whatIsIt": "Your employer pays you an amount to buy books, magazines, journals and newspapers that help you do your job. You claim it by showing the bills. The part you actually spend, up to what your employer provides, is tax-free.",
+      "benefit": "The reimbursed amount is not added to your taxable salary, so you pay less tax. It is a modest saving, but it is a legitimate one if you really buy such material for work. For someone in the 30% slab, every ₹1,00,000 that becomes exempt saves roughly ₹31,200 in tax (including 4% cess).",
+      "whoCanClaim": [
+        "Salaried employees whose salary structure includes a books and periodicals component.",
+        "Old tax regime only, according to the sources that take a position. One source was unclear, so confirm this before relying on it.",
+        "The books must be for your job, such as professional journals, industry magazines or reference books. General reading does not count."
+      ],
+      "howCalculated": {
+        "intro": "The exempt amount is the LOWER of these two. Anything else is taxable.",
+        "steps": [
+          "What you actually spent, shown by bills.",
+          "The amount your employer provides for this in your salary structure."
+        ]
+      },
+      "clauses": [
+        {
+          "title": "Old regime only",
+          "text": "The sources that take a position say the exemption works only in the old regime. One source was unclear, so this is to be confirmed."
+        },
+        {
+          "title": "Reimbursement against bills",
+          "text": "The exemption works only as a reimbursement. Without bills, the amount is taxable."
+        },
+        {
+          "title": "Work use only",
+          "text": "The books and periodicals must be for official or professional use. General reading does not qualify."
+        },
+        {
+          "title": "No fixed rupee limit in the law",
+          "text": "The cap is your employer's policy and your actual bills, not a number set by the tax rules."
+        },
+        {
+          "title": "Unspent amount is taxable",
+          "text": "Any part of the component that you do not spend, or cannot show bills for, is taxed as salary."
+        },
+        {
+          "title": "A cash allowance does not qualify",
+          "text": "If the amount is paid to you with no bills required, it is taxable. It has to work as a reimbursement."
+        },
+        {
+          "title": "Check the employer's rules",
+          "text": "Many companies limit what counts. For example, e-readers and tablets are often excluded."
+        },
+        {
+          "title": "Where it sits in the law",
+          "text": "Sources tie it to Section 10(14) and Rule 2BB of the old Act, but this could not be confirmed. The Income-tax Act, 2025 replaced the 1961 Act from 1 April 2026. The exact references are not stated here until confirmed from the official text."
+        }
+      ],
+      "latestUpdate": {
+        "effectiveDate": "2026-04-01",
+        "headline": "No change found from 1 April 2026.",
+        "status": "Confirm against notified rules.",
+        "details": [
+          "The Income-tax Act, 2025 and the Income-tax Rules, 2026 now govern this. No change to how books and periodicals are treated was found.",
+          "Sources tie the exemption to the old regime. One source was unclear on the new regime.",
+          "There is still no fixed rupee limit in the law. The limit is your bills and your employer's policy."
+        ]
+      },
+      "example": {
+        "scenario": "Your salary structure has a books and periodicals component of ₹2,000 a month, which is ₹24,000 a year. Over the year you submit bills for ₹18,000.",
+        "rows": [
+          {
+            "label": "A. Component in your salary structure",
+            "value": "₹24,000"
+          },
+          {
+            "label": "B. Actual bills submitted",
+            "value": "₹18,000"
+          }
+        ],
+        "result": "Exempt amount = lower of A and B = ₹18,000. The unused ₹6,000 is taxable.",
+        "compare": "At the 30% slab the exemption saves about ₹5,600 in tax a year."
+      },
+      "documents": [
+        "Bills or receipts for books, journals, magazines or newspapers",
+        "Subscription invoices",
+        "Reimbursement claim form submitted to your employer",
+        "Old regime choice in your employer tax declaration"
+      ],
+      "watchOut": [
+        "Without bills the amount is taxable.",
+        "Only buy items you will use for work, and keep the bills.",
+        "Any unspent part of the component is taxed.",
+        "Check your employer's policy on what counts. E-readers and tablets are often excluded.",
+        "Choose the old regime in your declaration, or your employer will not give you the exemption."
+      ],
+      "sources": [
+        {
+          "title": "Keka: books and periodicals allowance, tax, exemption and bills",
+          "url": "https://www.keka.com/books-and-periodicals-allowance"
+        },
+        {
+          "title": "ClearTax: books and periodical allowance",
+          "url": "https://cleartax.in/s/books-and-periodical-allowance"
+        },
+        {
+          "title": "PazCare: books and periodical allowance and reimbursements",
+          "url": "https://www.pazcare.com/employee-benefits/books-and-periodicals-allowance"
+        }
+      ],
+      "changelog": [
+        {
+          "date": "2026-11-18",
+          "type": "created",
+          "note": "Page created. No change found from 1 April 2026."
+        }
+      ],
+      "watch": {
+        "queries": [
+          "\"books and periodicals\" allowance tax",
+          "\"periodicals allowance\" income tax rules 2026"
+        ],
+        "mustMention": "periodical|books and"
       }
     }
   }
