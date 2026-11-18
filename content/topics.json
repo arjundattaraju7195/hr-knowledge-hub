@@ -7,7 +7,8 @@
       "topics": [
         "hra",
         "cea",
-        "lta"
+        "lta",
+        "car-fuel-driver"
       ]
     }
   ],
@@ -386,6 +387,167 @@
         ],
         "mustMention": "leave travel|\bLTA\b|\bLTC\b"
       }
+    },
+    "car-fuel-driver": {
+      "id": "car-fuel-driver",
+      "title": "Car Fuel and Driver Benefit",
+      "shortName": "Car fuel & driver",
+      "short": "How much of your employer-paid car costs and driver is taxed.",
+      "lastVerified": "2026-11-18",
+      "lastChanged": "2026-11-18",
+      "whatIsIt": "Employers often pay for the fuel, upkeep and driver of a car you use. This is not a flat allowance. The tax law decides how much of that benefit is added to your taxable salary (called a perquisite). If the car is used only for official work and records are kept, nothing is added. If it is also used for personal trips, a fixed monthly amount is added.",
+      "benefit": "For a car used only for work, the employer pays the costs and none of it is taxed to you. For a car used partly for personal trips, you are taxed on a fixed monthly amount set by the rules, not on what your employer actually spends. In 2026 those fixed amounts went up, so this benefit now costs more tax than before.",
+      "whoCanClaim": [
+        "Salaried employees whose employer provides a car, or reimburses fuel, maintenance or driver costs.",
+        "Official use only: the employer must keep a logbook and a certificate that the travel was for work.",
+        "The fixed-value method applies to cars used partly for official and partly for personal purposes.",
+        "Reported to apply the same way under the old and the new tax regime. Confirm this before relying on it."
+      ],
+      "howCalculated": {
+        "intro": "Work out which situation you are in, then add the fixed amount to your taxable salary for each month.",
+        "steps": [
+          "Decide who owns the car and who pays the running costs (fuel and maintenance).",
+          "If the car is used only for official work with a logbook, the taxable amount is nil.",
+          "If it is used partly for personal trips, find your case in the table below and take the fixed monthly amount.",
+          "Add the driver amount on top if your employer also provides a driver. Multiply by the months you had the benefit."
+        ]
+      },
+      "table": {
+        "heading": "Fixed monthly taxable amount (from 1 April 2026)",
+        "columns": [
+          "Case",
+          "Car up to 1.6 litres (or electric)",
+          "Car above 1.6 litres",
+          "Driver, added on top"
+        ],
+        "rows": [
+          [
+            "Employer-owned or hired car. Employer pays running costs.",
+            "₹5,000 (was ₹1,800)",
+            "₹7,000 (was ₹2,400)",
+            "₹3,000 (was ₹900)"
+          ],
+          [
+            "Employer-owned or hired car. You pay the running costs of personal use.",
+            "₹2,000 (was ₹600)",
+            "₹3,000 (was ₹900)",
+            "₹3,000 (was ₹900)"
+          ],
+          [
+            "Your own car. Employer reimburses running costs.",
+            "₹5,000 (was ₹1,800)",
+            "₹7,000 (was ₹2,400)",
+            "₹3,000 (was ₹900)"
+          ]
+        ]
+      },
+      "clauses": [
+        {
+          "title": "Official use only: nothing taxable",
+          "text": "If the car is used only for work, the employer reimburses costs and keeps a logbook and a certificate, no perquisite arises."
+        },
+        {
+          "title": "Mixed use: fixed amount",
+          "text": "If the car is also used for personal trips, a fixed monthly amount is added to your income, whatever the real cost."
+        },
+        {
+          "title": "Driver adds a second amount",
+          "text": "If a driver is provided, the driver amount is added on top of the car amount."
+        },
+        {
+          "title": "Electric cars",
+          "text": "Electric cars are grouped with cars up to 1.6 litres. The 2026 rules also clarified how electric cars are valued."
+        },
+        {
+          "title": "It is a taxable value, not a tax-free limit",
+          "text": "These figures are amounts added to your taxable salary. They are not amounts you can receive tax-free."
+        },
+        {
+          "title": "Not the same as transport allowance",
+          "text": "Ordinary transport allowance paid in your salary is a different thing and is mostly taxable."
+        },
+        {
+          "title": "Where it sits in the law",
+          "text": "In the old Act this was Section 17(2) with Rule 3 of the 1962 Rules. The Income-tax Rules, 2026 came into force on 1 April 2026. The exact new rule number is not stated here until confirmed from the official text."
+        }
+      ],
+      "latestUpdate": {
+        "effectiveDate": "2026-04-01",
+        "headline": "Taxable value of a car and driver benefit rose sharply.",
+        "status": "Confirm against notified rules.",
+        "details": [
+          "Employer-paid car up to 1.6 litres: from ₹1,800 to ₹5,000 a month. Above 1.6 litres: from ₹2,400 to ₹7,000.",
+          "Driver: from ₹900 to ₹3,000 a month.",
+          "If you pay the personal-use running costs yourself: from ₹600 and ₹900 to ₹2,000 and ₹3,000.",
+          "Your own car with employer reimbursement uses the same amounts as an employer-paid car.",
+          "The change is a tax increase for employees who use a car for personal trips."
+        ]
+      },
+      "example": {
+        "scenario": "You have an employer-owned car with an engine above 1.6 litres. The employer pays running costs and provides a driver. You use it partly for personal trips.",
+        "rows": [
+          {
+            "label": "Old: ₹2,400 car + ₹900 driver, a month",
+            "value": "₹3,300"
+          },
+          {
+            "label": "New: ₹7,000 car + ₹3,000 driver, a month",
+            "value": "₹10,000"
+          },
+          {
+            "label": "Added to your income a year, old",
+            "value": "₹39,600"
+          },
+          {
+            "label": "Added to your income a year, new",
+            "value": "₹1,20,000"
+          }
+        ],
+        "result": "About ₹80,400 more taxable income a year.",
+        "compare": "At the 30% slab that is roughly ₹25,000 more tax a year. If the same car were used only for official work with a logbook, nothing would be added."
+      },
+      "documents": [
+        "Logbook showing official and personal trips",
+        "Employer certificate that travel was for official work",
+        "Car details: who owns it and engine size",
+        "Employer records of fuel, maintenance and driver costs"
+      ],
+      "watchOut": [
+        "Without a logbook and employer certificate, official use may not be accepted.",
+        "Engine size decides which amount applies: up to 1.6 litres or above.",
+        "These are taxable amounts, not tax-free limits.",
+        "The amounts come from a secondary source and still need checking against the notified rules.",
+        "Later amendments to the Rules were notified in 2026. Check whether any of them changed these amounts."
+      ],
+      "sources": [
+        {
+          "title": "KPMG: Income-tax Rules, 2026, key updates from a personal tax perspective",
+          "url": "https://kpmg.com/xx/en/our-insights/gms-flash-alert/2026/flash-alert-2026-081.html"
+        },
+        {
+          "title": "TaxGuru: Decoding draft Income-tax Rules 2026, perquisite valuation",
+          "url": "https://taxguru.in/income-tax/decoding-draft-income-tax-rules-2026-paradigm-shift-salary-taxation-perquisite-valuation.html"
+        },
+        {
+          "title": "Taxscan: Company car perquisite value set to rise",
+          "url": "https://www.taxscan.in/top-stories/company-car-perquisite-tax-value-set-to-rise-under-income-tax-rules-2026-1442866"
+        }
+      ],
+      "changelog": [
+        {
+          "date": "2026-11-18",
+          "type": "created",
+          "note": "Page created. Covers the 1 April 2026 rise in the taxable value of car and driver benefits."
+        }
+      ],
+      "watch": {
+        "queries": [
+          "\"company car\" perquisite income tax rules",
+          "\"car perquisite\" tax 2026"
+        ],
+        "mustMention": "company car|car perquisite|motor car|chauffeur|fuel reimbursement"
+      },
+      "calcHeading": "How the taxable amount is worked out"
     }
   }
 }

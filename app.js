@@ -89,9 +89,16 @@ function viewTopic(id) {
     h("h2", {}, "How does it save tax?"), h("p", {}, t.benefit),
     h("h2", {}, "Who can claim?"), h("ul", {}, t.whoCanClaim.map(x => h("li", {}, x))),
 
-    h("h2", {}, "How the exempt amount is worked out"),
+    h("h2", {}, t.calcHeading || "How the exempt amount is worked out"),
     h("p", {}, t.howCalculated.intro),
     h("ol", {}, t.howCalculated.steps.map(s => h("li", {}, s))),
+
+    t.table && h("div", {},
+      h("h2", {}, t.table.heading),
+      h("div", { class: "scroll" },
+        h("table", { class: "grid" },
+          h("thead", {}, h("tr", {}, t.table.columns.map(c => h("th", {}, c)))),
+          h("tbody", {}, t.table.rows.map(r => h("tr", {}, r.map(c => h("td", {}, c)))))))),
 
     t.metroCities && h("div", {},
       h("h2", {}, "Cities with the 50% limit"),

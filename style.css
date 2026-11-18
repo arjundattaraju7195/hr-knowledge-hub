@@ -43,3 +43,7 @@ details.clause { border-bottom: 1px solid var(--line); padding: 8px 0; }
 details.clause summary { cursor: pointer; font-weight: 600; }
 details.clause p { margin: 6px 0 0; color: var(--muted); }
 .foot { color: var(--muted); font-size: 13px; padding-bottom: 30px; }
+.scroll { overflow-x: auto; }
+table.grid { min-width: 520px; font-size: 14px; }
+table.grid th { text-align: left; padding: 8px 6px; border-bottom: 2px solid var(--line); color: var(--muted); font-weight: 600; }
+table.grid td, table.grid td:last-child { text-align: left; font-weight: normal; white-space: normal; vertical-align: top; padding: 8px 6px; }
